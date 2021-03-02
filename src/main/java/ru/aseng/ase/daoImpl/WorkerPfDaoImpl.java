@@ -1,11 +1,13 @@
 package ru.aseng.ase.daoImpl;
 
+import org.springframework.stereotype.Component;
 import ru.aseng.ase.dao.WorkerPfDao;
 import ru.aseng.ase.model.WorkerPf;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class WorkerPfDaoImpl implements WorkerPfDao {
 
     @Override

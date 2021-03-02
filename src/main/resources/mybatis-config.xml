@@ -2,7 +2,6 @@
 <!DOCTYPE configuration
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
-
 <configuration>
 
     <properties resource='mysql.jdbc.properties'/>
@@ -25,7 +24,7 @@
     </environments>
 
     <mappers>
-        <mapper class="net.thumbtack.school.hospital.mybatis.mappers.WorkerMapper"/>
+        <mapper class="ru.aseng.ase.mybatis.mappers.WorkerMapper"/>
     </mappers>
 
 </configuration>
